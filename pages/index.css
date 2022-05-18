@@ -96,3 +96,40 @@ footer {
   text-transform: uppercase;
   font-weight: 400;
 }
+
+/*----------- INTRO ---------*/
+
+.intro {
+  max-width: 984px;
+  padding: 92px 0;
+  margin: 0 auto;
+}
+
+.intro__title {
+  line-height: 58px;
+  font-size: 54px;
+  font-weight: 900;
+  margin: 0;
+  max-width: 690px;
+}
+
+.intro__text {
+  line-height: 163%;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 40px;
+  margin: 0;
+  max-height: 208px;
+  max-width: 690px;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 33px 0 0 0;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  max-height: 90px;
+  max-width: 690px;
+}
