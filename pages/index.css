@@ -20,6 +20,8 @@ footer {
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header {
