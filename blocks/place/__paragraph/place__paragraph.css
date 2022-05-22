@@ -6,3 +6,7 @@
   margin: 0;
   padding-bottom: 26px;
 }
+
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
+}

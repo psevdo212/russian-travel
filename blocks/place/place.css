@@ -1,15 +1,9 @@
 .place{
   display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: 1fr 460px;
+  grid-template-columns: minmax(460px, min-content) 1fr;
+  grid-template-rows: 1fr minmax(460px, min-content);
   gap: 48px 40px;
   padding-bottom: 80px;
-  max-width: 984px;
-  margin: 0 auto;
-}
-
-.place:first-of-type {
-  padding-top: 92px;
 }
 
 .place:last-of-type {
