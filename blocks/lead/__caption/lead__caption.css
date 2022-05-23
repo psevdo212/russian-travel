@@ -6,4 +6,5 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-weight: 400;
+  align-self: flex-start;
 }
