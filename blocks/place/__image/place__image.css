@@ -4,23 +4,3 @@
   background-size: cover;
   margin: 0;
 }
-
-.place__image_altay {
-  background-image: url(../../../images/places/altay.png);
-}
-
-.place__image_baikal-winter {
-  background-image: url(../../../images/places/baikal-winter.png);
-}
-
-.place__image_karelia {
-  background-image: url(../../../images/places/karelia.png);
-}
-
-.place__image_kolsky {
-  background-image: url(../../../images/places/kolsky.png);
-}
-
-.place__image_kurshskaya-kosa {
-  background-image: url(../../../images/places/kurshskaya_kosa.png);
-}

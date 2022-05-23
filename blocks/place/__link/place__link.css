@@ -4,4 +4,9 @@
   line-height: 22px;
   color: #fff;
   margin: 0;
+  transition: opacity .4s ease;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
