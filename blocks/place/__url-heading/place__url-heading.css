@@ -7,3 +7,9 @@
   margin: 0;
   padding-bottom: 12px;
 }
+
+@media screen and (width: 320px) {
+  .place__url-heading {
+    padding: 0 16px;
+  }
+}

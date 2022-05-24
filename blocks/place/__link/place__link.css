@@ -7,6 +7,14 @@
   transition: opacity .4s ease;
 }
 
-.place__link:hover {
+@media (any-hover: hover) {
+  .place__link:hover {
   opacity: 0.8;
+}
+}
+
+@media screen and (width: 320px) {
+  .place__link {
+    padding: 0 16px;
+  }
 }

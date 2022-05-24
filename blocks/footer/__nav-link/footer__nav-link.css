@@ -4,9 +4,11 @@
   line-height: 18px;
   text-decoration: none;
   color: #fff;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
-.footer__nav-link:hover {
-  opacity: 0.8;
+@media (any-hover: hover) {
+  .footer__nav-link:hover {
+    opacity: 0.8;
+  }
 }

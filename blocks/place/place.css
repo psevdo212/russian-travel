@@ -1,11 +1,29 @@
 .place{
   display: grid;
-  grid-template-columns: minmax(460px, min-content) 1fr;
-  grid-template-rows: 1fr minmax(460px, min-content);
+  grid-template-columns: min-content 1fr;
   gap: 48px 40px;
   padding-bottom: 80px;
 }
 
 .place:last-of-type {
   padding-bottom: 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
 }
