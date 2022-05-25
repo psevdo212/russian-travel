@@ -14,13 +14,6 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    min-width: 340px;
-    min-height: 340px;
-  }
-}
-
-@media screen and (width: 320px) {
-  .place__image {
     min-width: 320px;
     min-height: 320px;
   }
