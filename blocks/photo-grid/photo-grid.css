@@ -3,16 +3,16 @@
   min-height: 671px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px 16px;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+  gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px 14px;
+    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);*/
+    gap: 14px;
     height: 91,99vw;
   }
 }
@@ -20,9 +20,9 @@
 @media screen and (max-width: 768px){
   .photo-grid {
     width: calc(100% - 48px);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 16px 16px;
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);*/
+    gap: 16px;
     height: 216.667vw;
   }
 }
@@ -30,9 +30,10 @@
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: calc(100% - 32px);
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    row-gap: 12px;
+    /*grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);*/
+    gap: 12px;
     height: 851.25vw;
   }
 }
+
