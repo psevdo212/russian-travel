@@ -1,5 +1,5 @@
 .places {
-  padding: 92px 0;
+  padding-bottom: 92px;
   width: calc(100% - 296px);
   margin: 0 auto;
 }
@@ -13,14 +13,14 @@
 @media screen and (max-width: 768px){
   .places {
     width: calc(100% - 48px);
-    padding: 88px 0 90px 0;
+    padding-bottom:90px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     width: 100%;
-    padding: 64px 0 66px 0;
+    padding-bottom: 66px;
     display: flex;
     flex-direction: column;
   }
