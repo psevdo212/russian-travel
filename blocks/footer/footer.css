@@ -1,6 +1,5 @@
 .footer {
   width: calc(100% - 96px);
-  min-height: 18px;
   padding: 92px 0 24px 0;
   margin: 0 auto;
   display: flex;
