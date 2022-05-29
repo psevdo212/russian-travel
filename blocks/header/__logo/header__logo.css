@@ -1,5 +1,5 @@
 .header__logo {
-  min-width: 176px;
+  width: 176px;
   width: 100%;
   background-image: url(../../../images/header/header-logo.svg);
   background-size: contain;
